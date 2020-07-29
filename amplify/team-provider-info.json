@@ -1,0 +1,19 @@
+{
+    "test": {
+        "awscloudformation": {
+            "AuthRoleName": "foodbot-test-20190725104116-authRole",
+            "UnauthRoleArn": "arn:aws:iam::285832610462:role/foodbot-test-20190725104116-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::285832610462:role/foodbot-test-20190725104116-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "foodbot-test-20190725104116-deployment",
+            "UnauthRoleName": "foodbot-test-20190725104116-unauthRole",
+            "StackName": "foodbot-test-20190725104116",
+            "StackId": "arn:aws:cloudformation:eu-west-1:285832610462:stack/foodbot-test-20190725104116/5ab66ed0-aec0-11e9-adb7-02135cc8443e"
+        },
+        "categories": {
+            "auth": {
+                "cognitoe68fc113": {}
+            }
+        }
+    }
+}

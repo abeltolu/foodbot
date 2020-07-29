@@ -1,0 +1,25 @@
+{
+    "identityPoolName": "foodbot_identitypool_94b0637f",
+    "allowUnauthenticatedIdentities": true,
+    "openIdLambdaRoleName": "foodbo94b0637f_openid_lambda_role",
+    "authSelections": "identityPoolOnly",
+    "resourceName": "cognitoe68fc113",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    },
+    "unauthRoleArn": {
+        "Fn::GetAtt": [
+            "UnauthRole",
+            "Arn"
+        ]
+    }
+}
